@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019824209278",
+    "project_id": "lung-cancer-86744",
+    "storage_bucket": "lung-cancer-86744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019824209278:android:d7ae4838bbc9db7ccbc72f",
+        "android_client_info": {
+          "package_name": "com.example.lungcancerwithoutml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019824209278-spr0u7r2f66sh7lffp6rf1in5vodbjqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEC3iVNl-zt_53uvZDilE_V-rbiKV1TPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019824209278-spr0u7r2f66sh7lffp6rf1in5vodbjqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

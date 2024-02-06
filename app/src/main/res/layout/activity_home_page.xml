@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Lung Cancer Classification App"/>
+
+    <Button
+        android:id="@+id/about_lung_cancer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:hint="About Lung Cancer"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="#121111"
+        android:textSize="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/classification_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Classification"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="#121111"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/about_us_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="20dp"
+        android:hint="About Us"
+        android:textColorHint="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="#121111"
+        android:textSize="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="280dp"
+        android:backgroundTint="#121111"
+        android:hint="Log Out"
+        android:textColorHint="@color/white"/>
+
+</TableLayout>

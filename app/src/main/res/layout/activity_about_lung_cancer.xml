@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Lung_Cancer"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lung Cancer"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_height="600dp">
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+           android:text="Lung cancer is a type of cancer that starts in the lungs, the organs responsible for breathing in oxygen and removing carbon dioxide from the body. It occurs when cells in the lung tissue begin to grow uncontrollably, forming a tumor. Lung cancer can affect anyone, but it is most commonly found in people who smoke. However, non-smokers can also develop lung cancer.\n \nThere are two main types of lung cancer: non-small cell lung cancer (NSCLC) and small cell lung cancer (SCLC). NSCLC is the most common type of lung cancer, accounting for about 80% of cases. SCLC is less common, but tends to grow and spread more quickly than NSCLC.\n\nSymptoms of lung cancer can vary depending on the type and stage of the cancer. Early-stage lung cancer may not cause any symptoms, while advanced-stage lung cancer can cause coughing, wheezing, chest pain, shortness of breath, weight loss, and fatigue. If you experience any of these symptoms, it is important to see a doctor.\n\nDiagnosis of lung cancer typically involves a combination of imaging tests (such as X-rays, CT scans, or MRIs) and biopsies, which involve removing a small sample of tissue from the lung for analysis. Once a diagnosis is made, the cancer is staged based on the size of the tumor and how far it has spread.\n\nTreatment options for lung cancer depend on the type and stage of the cancer, as well as the patient's overall health. Surgery, chemotherapy, and radiation therapy are common treatments for lung cancer. In some cases, a combination of these treatments may be used. Targeted therapy and immunotherapy are also emerging treatments that target specific molecules or cells involved in the growth of cancer cells.\n\nPrevention is key when it comes to lung cancer. The best way to reduce the risk of lung cancer is to avoid smoking and exposure to secondhand smoke. If you do smoke, quitting smoking can greatly reduce your risk of developing lung cancer. Other preventative measures include avoiding exposure to carcinogens such as asbestos and radon gas.\n\nIn addition to prevention, early detection is also important for improving outcomes in lung cancer. Screening for lung cancer is recommended for individuals who are at high risk, such as current or former smokers. Screening typically involves a low-dose CT scan of the chest.\n\nIn conclusion, lung cancer is a serious and potentially deadly disease that affects the lungs. However, there are steps you can take to reduce your risk and improve outcomes, such as quitting smoking and getting regular screenings if you are at high risk. If you experience any symptoms of lung cancer, it is important to see a doctor right away. Early detection and treatment can greatly improve outcomes for those with lung cancer."
+            />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/Back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="280dp"
+        android:backgroundTint="#121111"
+        android:hint="Back"
+        android:textColorHint="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:layout_marginTop="200dp"
+        android:id="@+id/name"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Patient Name:" />
+
+    <EditText
+
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Age:"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="Date: "
+        android:inputType="date" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2C302D"
+            android:hint="Back"
+
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#2C302D"
+            android:hint="Next"
+            android:textColorHint="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
